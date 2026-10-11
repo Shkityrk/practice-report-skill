@@ -1,0 +1,58 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.venv-*/
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.pid
+.cache/
+tmp/
+temp/
+
+# Generated document artifacts
+*.docx
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# Local practice workspaces and generated reports
+pr-[0-9]*/
+practice-[0-9]*/
+report/
+notes/
+
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+config.json
+!templates/config.example.json
